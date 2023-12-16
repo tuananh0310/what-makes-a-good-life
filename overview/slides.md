@@ -52,9 +52,9 @@ Learn in to work, push harder and achieve more.
 
 ---
 
-<h4 style="color: #3eaf7c">
+<h2 style="color: #3eaf7c">
 Good relationships keep us happier and healthier.
-</h4>
+</h2>
 <iframe src="https://giphy.com/embed/Xb7VYGVSzYMHV4pkHE" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/proairmedienagentur-air-pro-proair-Xb7VYGVSzYMHV4pkHE"></a></p>
 
 ===
