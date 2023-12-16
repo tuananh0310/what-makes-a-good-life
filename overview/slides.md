@@ -48,7 +48,7 @@ Learn in to work, push harder and achieve more.
 ### Message regarding research 
 724 men aged 19 to 75 years old of Robert Waldinger
 
-<img src="/overview/Screenshot 2023-12-14 at 22.21.24.png">
+<img src="../../what-makes-a-good-life/overview/Screenshot 2023-12-14 at 22.21.24.png">
 
 ---
 
@@ -91,7 +91,7 @@ Good relationships keep us happier and healthier.
 
 ### Good relationship protect our brains
 
-<img width="675" height="502" src="/overview/Screenshot 2023-12-13 at 00.33.33.png">
+<img width="675" height="502" src="../../what-makes-a-good-life/overview/Screenshot 2023-12-13 at 00.33.33.png">
 
 
 
