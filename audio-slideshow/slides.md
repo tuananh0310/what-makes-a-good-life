@@ -34,8 +34,6 @@ You can download a ZIP-file containing the recorded audio by pressing <kbd>Z</kb
 
 The audio controls can also be used to control embedded videos.
 
-<video width="720" height="480" preload="auto" data-audio-controls src="https://upload.wikimedia.org/wikipedia/commons/1/18/Big_Buck_Bunny_Trailer_1080p.ogv">
-</video>
 
 ---
 
@@ -43,6 +41,5 @@ The audio controls can also be used to control embedded videos.
 
 Audio playback and embedded videos can be synchronised.
 
-<video width="720" height="400" preload="auto" data-audio-controls src="https://upload.wikimedia.org/wikipedia/commons/2/29/Moon_transit_of_sun_large.ogv">
-</video>
+
 <small>Source: NASA Marshall Space Flight Center (NASA-MSFC)</small>

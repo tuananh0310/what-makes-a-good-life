@@ -1,27 +1,65 @@
-## Reveal.js
+## 10 billion
 
-[Reveal.js](https://revealjs.com/) is an open-source HTML framework allowing to create beautiful presentations supporting
-
-- authoring via MarkDown,
-- math equations with MathJax,
-- syntax highlighting for code, and
-- much more.
-
-This presentation showcases examples created with the [reveal.js plugin collection](https://github.com/rajgoel/reveal.js-plugins).
-
----
-
-### Navigation
-
-Open the menu by clicking <i class="fa-solid fa-bars"></i> in the lower left corner and click <i class="fas fa-external-link-alt"></i> to navigate to demos for specific plugins or continue with the next slides to see a few examples created with the plugin collection.
+<h3 class="fragment"> < </p>
+<h1 class="fragment fade-up" style="color: #3eaf7c">Live</h1>
 
 ===
 
-## Examples
+### 
+
+<h2>
+What keeps us healthy and happy as we go through life?
+</h2>
 
 ---
 
-### Animations
+<h2>
+If you are going to invest now in your future best self, where would you put your time and your energy?
+</h2>
+
+===
+
+## Get Rich?
+<iframe src="https://giphy.com/embed/l2Sq9qGTQnL5NyI6Y" width="600" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/justin-dog-money-shades-l2Sq9qGTQnL5NyI6Y"></a></p>
+Money can't buy happiness, but it can solve 99% of your problems.
+
+===
+
+## become famous?
+<iframe src="https://giphy.com/embed/dWepIWjSypVptQeeY3" width="600" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/snoopdogg-snoop-dogg-i-wanna-thank-me-dWepIWjSypVptQeeY3"></a></p>
+
+===
+
+### Work hard?
+
+<iframe src="https://giphy.com/embed/na2v3jKhxosCI" width="600" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/work-share-hard-na2v3jKhxosCI"></a></p>
+Learn in to work, push harder and achieve more. 
+
+===
+
+### Time goes on
+
+<div class="anything">
+<!-- { "initialize": "function(container,options) {globe(container);}" } -->
+</div>
+
+===
+
+### Message regarding research 
+724 men aged 19 to 75 years old of Robert Waldinger
+
+<img src="/overview/Screenshot 2023-12-14 at 22.21.24.png">
+
+---
+
+<h4 style="color: #3eaf7c">
+Good relationships keep us happier and healthier.
+</h4>
+<iframe src="https://giphy.com/embed/Xb7VYGVSzYMHV4pkHE" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/proairmedienagentur-air-pro-proair-Xb7VYGVSzYMHV4pkHE"></a></p>
+
+===
+
+### Emotional Support
 
 <div data-animate data-load="animate/heart.svg">
 <!--
@@ -38,41 +76,24 @@ Open the menu by clicking <i class="fa-solid fa-bars"></i> in the lower left cor
 
 ---
 
-### Interactive elements
+### Personal Growth and Development
 
-<div class="anything">
-<!-- { "initialize": "function(container,options) {globe(container);}" } -->
-</div>
+<iframe src="https://giphy.com/embed/dafmvEClT0auICG2iI" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/savemybacon-bacon-growth-save-my-dafmvEClT0auICG2iI"></a></p>
 
 ---
 
-### Charts
+### Increased Happiness and Life Satisfaction
 
-<div style="height:480px">
-<canvas data-chart="pie">
-,Black, Red, Green, Yellow
-My first dataset, 40, 40, 20, 6
-My second dataset, 45, 40, 25, 4
-</canvas>
-</div>
+
+<iframe src="https://giphy.com/embed/XurKBe1Urqn4hsxYBR" width="480" height="343" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/fallontonight-best-day-ever-so-happy-made-my-week-XurKBe1Urqn4hsxYBR"></a></p>
 
 ---
 
-<!-- .slide: data-fullscreen="true"  -->
+### Good relationship protect our brains
 
-### Embedded online content
+<img width="675" height="502" src="/overview/Screenshot 2023-12-13 at 00.33.33.png">
 
-<iframe class="stretch" src="https://www.youtube.com/embed/5xAgp6i9lUQ?rel=0" frameborder="0" allowfullscreen></iframe>
 
-===
 
-## Open source
 
-You can find the source code of
 
-- the presentation framework [here](https://github.com/hakimel/reveal.js)&nbsp;
-<iframe src="https://ghbtns.com/github-btn.html?user=hakimel&repo=reveal.js&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
-- the plugin collection [here](https://github.com/rajgoel/reveal.js-plugins)&nbsp;
-<iframe src="https://ghbtns.com/github-btn.html?user=rajgoel&repo=reveal.js-plugins&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
-- the demo presentations [here](https://github.com/rajgoel/reveal.js-demos)&nbsp;
-<iframe src="https://ghbtns.com/github-btn.html?user=rajgoel&repo=reveal.js-demos&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>

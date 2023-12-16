@@ -51,8 +51,6 @@
   <script src="https://d3js.org/topojson.v3.min.js"></script>
 
 	<!-- Audio slideshow plugin -->
-	<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/audio-slideshow/plugin.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/audio-slideshow/recorder.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/RecordRTC/5.6.2/RecordRTC.js"></script>
 
 	<!-- Chalkboard plugin -->
@@ -96,12 +94,13 @@
 :root {
   --r-heading-text-shadow: none;
   --r-heading1-text-shadow: none;
+  --r-link-color: #3eaf7c;
+
 /*
   --r-main-font: Helvetica, sans-serif;
   --r-heading-font: Helvetica, sans-serif;
   --r-heading-color: darkred;
   --r-heading-text-transform: none;
-  --r-link-color: firebrick;
   --r-link-color-dark: darkred;
   --r-link-color-hover: red;
 */
@@ -112,6 +111,21 @@
     display: block;
     height: 50px; /* Adjust the value as needed */
 }
+
+.reveal a {
+	color: #3eaf7c;
+}
+#customcontrols button {
+	color: #3eaf7c;
+}
+
+.reveal .controls {
+	color: #3eaf7c;
+}
+
+.land {
+	fill: unset;
+}
 </style>
 </head>
 
@@ -119,23 +133,28 @@
 	<div class="reveal">
 		<div class="slides">
 			<section>
-				<h1>Plugins for Reveal.js</h1>
-				<p>by Asvin Goel</p>
-				<div id="qrcode"></div>
-				<p><a id="url"></a></p>
+				<h1 style="color: #3eaf7c;">What makes a good life?</h1>
+				<p>by boy one champ aatrox</p>
 			</section>
 			<section data-markdown data-separator="^\n===\n$" data-separator-vertical="^\n---\n$">
+				hello
 			</section>
 			<section>
-				<h2>The end</h2>
-				<div class="presentation-only">
-					You have reached the last slide of this slide deck. Please click
-					<ul>
-						<li><a id="pdf-link"><i class="fas fa-file-pdf"></i></a> to open a version printable to PDF, or </li>
-						<li><a href="#" onclick="return nextTopic();"><i class="fas fa-external-link-alt"></i></a> to continue with the next slide deck.</li>
-					</ul>
-				</div>
+				<h3>
+					The
+					<span style="color: #3eaf7c;">good life</span>
+					  is built with 
+					 <span style="color: #3eaf7c;">good relationships</span> 
+					</h3>
+				<img src="/overview/IMG_7166.JPG" height="675" width="502">
  			</section>
+			<section>
+				<h3>
+					Many thanks!
+				</h3>
+
+				<iframe src="https://giphy.com/embed/fWfowxJtHySJ0SGCgN" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/SkyTV-thank-you-love-youre-the-best-fWfowxJtHySJ0SGCgN"></a></p>
+			</section>
 		</div>
 	</div>
 
@@ -147,7 +166,6 @@
 		{ topic: "Overview", src: "slides.md", folder: "overview" },
 		{ topic: "Animate", src: "slides.md", folder: "animate" },
 		{ topic: "Anything", src: "slides.md", folder: "anything" },
-		{ topic: "Audio slideshow", src: "slides.md", folder: "audio-slideshow" },
 		{ topic: "Chalkboard", src: "slides.md", folder: "chalkboard" },
 		{ topic: "Chart", src: "slides.md", folder: "chart" },
 		{ topic: "Seminar", src: "slides.md", folder: "seminar" }
@@ -155,8 +173,9 @@
 
 
 	var topicId = getTopicId();
-	document.title = "Reveal.js-plugin: " + getTopic();
-  document.getElementById('pdf-link').href = getURL(topicId) + '&print-pdf';
+	document.title = "Be a nice person"
+	// getTopic();
+  // document.getElementById('pdf-link').href = getURL(topicId) + '&print-pdf';
 
 	// load topic
 	document.querySelector('section[data-markdown=""]').setAttribute("data-markdown",topics[topicId].folder + "/" + topics[topicId].src);
@@ -209,14 +228,7 @@
       },
 			{className: "anything",  initialize: (function(container, options) { if (options && typeof options.initialize === "function") { options.initialize(container);} }) }
 		],
-		audio: {
-			defaultDuration: 5,
-			playerStyle : "position: fixed; bottom: 4px; left: 30%; width: 40%; height:70px; z-index: 33;",
-			playerOpacity: 0.5,
-			advance: 500,
-			prefix: getPath() + "/playback/",
-			suffix: '.ogg'
-		},
+	
 		chalkboard: {
 			storage: document.title,
 			src: getPath() + "/playback/chalkboard.json",
@@ -270,8 +282,6 @@
 			RevealHighlight,
 			RevealLoadContent,
 			RevealAnimate,
-			RevealAudioSlideshow,
-			RevealAudioRecorder,
 			RevealAnything,
 			RevealChalkboard,
 			RevealChart,
