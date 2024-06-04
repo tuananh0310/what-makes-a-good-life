@@ -1,4 +1,4 @@
 # Reveal.js-demos
 
 
-**Watch online:** https://tuananhle.me/what-makes-a-good-life/
+**Watch online:** https://anhlxt.tech/what-makes-a-good-life/
